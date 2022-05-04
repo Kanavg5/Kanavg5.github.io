@@ -1,3 +1,92 @@
-.content{
-    padding: 10px;
+body{
+    background-color: black
+}
+@font-face {
+    font-family: darkness;
+    src: url("Infinite\ Darkness\ Italic.ttf")
+}
+.star {
+    position: absolute;
+    border-radius: 50%;
+    top: calc(50% - var(--size) / 2);
+    left: calc(50% - var(--size) / 2);
+    width: var(--size);
+    height: var(--size);
+}body{
+    background-color: black;
+}
+
+.planet,
+.star {
+    position: absolute;
+    border-radius: 50%;
+    top: calc(50% - var(--size) / 2);
+    left: calc(50% - var(--size) / 2);
+    width: var(--size);
+    height: var(--size);
+
+    font-family: darkness;
+    font-size: larger;
+    text-align: center;
+    color: red
+}
+.sun {
+    --size: 120px;
+    background-color: yellow;
+    box-shadow: 0px 0px 200px 80px yellow;
+}
+.tech {
+    --size: 50px;
+    background-color: blue;
+    box-shadow: 0px 0px 200px 80px blue;
+    transform: translate(150px);
+    animation: tech 15s infinite linear;
+}
+@keyframes tech {
+    from{
+        transform: rotate(0deg) translateX(-150px)
+    }
+    to {
+        transform: rotate(360deg) translateX(-150px)
+    }
+}
+.techText{
+    animation: techText 15s infinite linear;
+}
+@keyframes techText {
+    from {
+        transform: rotate(360deg)
+    }
+    to {
+        transform: rotate(0deg)
+    }
+}
+
+
+.projects {
+    --size: 50px;
+    background-color: blue;
+    box-shadow: 0px 0px 200px 80px blue;
+    transform: translate(225px);
+    animation: projects 20s infinite linear;
+}
+
+@keyframes projects {
+    from{
+        transform: rotate(0deg) translateX(-225px)
+    }
+    to {
+        transform: rotate(360deg) translateX(-225px)
+    }
+}
+.projectsText{
+    animation: projectsText 20s infinite linear;
+}
+@keyframes projectsText {
+    from {
+        transform: rotate(360deg)
+    }
+    to {
+        transform: rotate(0deg)
+    }
 }
