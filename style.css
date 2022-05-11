@@ -64,7 +64,7 @@ body{
 
 
 .projects {
-    --size: 50px;
+    --size: 75px;
     background-color: blue;
     box-shadow: 0px 0px 200px 80px blue;
     transform: translate(225px);
@@ -83,6 +83,33 @@ body{
     animation: projectsText 20s infinite linear;
 }
 @keyframes projectsText {
+    from {
+        transform: rotate(360deg)
+    }
+    to {
+        transform: rotate(0deg)
+    }
+}
+
+.stories {
+    --size: 90px;
+    background-color: limegreen;
+    box-shadow: 0px 0px 200px 80px limegreen;
+    transform: translate(250px);
+    animation: projects 25s infinite linear;
+}
+@keyframes stories {
+    from{
+        transform: rotate(0deg) translateX(-250px)
+    }
+    to {
+        transform: rotate(360deg) translateX(-250px)
+    }
+}
+.storiesText{
+    animation: projectsText 20s infinite linear;
+}
+@keyframes storiesText {
     from {
         transform: rotate(360deg)
     }
