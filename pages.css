@@ -1,15 +1,15 @@
 body{
-    background-color: white;
-    font-family: Infinite;f
-
+    background-color:darkkhaki;
+    font-family: darkness;
+    src: url("Infinite\ Darkness\ Italic.ttf")
 }
 .boxcontainer{
     padding: 20px;
     display: flex;
 }
+
 .container1,
 .container2,
 .container3 {
     background-color: green;
-
 }
