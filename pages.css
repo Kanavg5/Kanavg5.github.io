@@ -1,15 +1,5 @@
 body{
-    background-color:darkkhaki;
+    background-color: darkgray;
     font-family: darkness;
     src: url("Infinite\ Darkness\ Italic.ttf")
-}
-.boxcontainer{
-    padding: 20px;
-    display: flex;
-}
-
-.container1,
-.container2,
-.container3 {
-    background-color: darkkhaki;
 }
