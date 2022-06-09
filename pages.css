@@ -3,3 +3,7 @@ body{
     font-family: darkness;
     src: url("Infinite\ Darkness\ Italic.ttf")
 }
+.Content{
+    padding-top: 18px;
+    padding-left: 30px;
+}
