@@ -61,8 +61,42 @@ body{
         transform: rotate(0deg)
     }
 }
-
-
+.transition  {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index:101
+}
+#blue {
+    background-color: blue;
+    animation: lefttransition 3s ease forwards
+}
+#yellow {
+    background-color: yellow;
+    animation: lefttransition 2s ease forwards;
+}
+#green {
+    background-color: green;
+    animation: lefttransition 1.5s ease forwards;
+}
+@keyframes lefttransition {
+    from {
+        width: 100%
+    }
+    to {
+        width: 0%
+    }
+}
+@keyframes righttransition {
+    from {
+        width: 0%
+    }
+    to {
+        width: 100%
+    }
+}
 .projects {
     --size: 75px;
     background-color: blue;
@@ -70,6 +104,15 @@ body{
     transform: translate(225px);
     animation: projects 20s infinite linear;
 }
+div {
+    transition: width 2s linear 1s;
+  }
+div {
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+  }
 
 @keyframes projects {
     from{
