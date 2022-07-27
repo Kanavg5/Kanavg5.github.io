@@ -1,8 +1,7 @@
 body{
     background-color: darkgray;
-    font-family: darkness;
-    src: url("Infinite\ Darkness\ Italic.ttf")
 }
+/* 
 .transition  {
     position: absolute;
     height: 100%;
@@ -50,6 +49,7 @@ body{
     visibility: hidden;
     opacity: 0;
 }
+*/
 .Content{
     padding-top: 18px;
     padding-left: 30px;

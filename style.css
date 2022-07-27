@@ -61,6 +61,7 @@ body{
         transform: rotate(0deg)
     }
 }
+/*
 .transition  {
     position: absolute;
     height: 100%;
@@ -97,6 +98,7 @@ body{
         width: 100%
     }
 }
+*/
 .projects {
     --size: 75px;
     background-color: blue;
