@@ -1,7 +1,10 @@
 body{
     background-color: darkgray;
 }
-/* 
+.nav-link{
+    color:black;
+}
+
 .transition  {
     position: absolute;
     height: 100%;
