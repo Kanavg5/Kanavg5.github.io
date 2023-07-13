@@ -11,11 +11,11 @@ body{
     top: 0;
     left: 0;
     bottom: 0;
-    z-index:101
+    z-index:101;
 }
 #blue {
     background-color: blue;
-    animation: lefttransition 3s ease forwards
+    animation: lefttransition 3s ease forwards;
 }
 #yellow {
     background-color: yellow;

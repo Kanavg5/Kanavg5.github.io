@@ -45,7 +45,7 @@ body{
     font-family: bold;
     font-size: larger;
     text-align: center;
-    color: red
+    color: red;
 }
 .sun {
     --size: 120px;
@@ -130,7 +130,7 @@ div {
     transition-property: width;
     transition-duration: 2s;
     transition-timing-function: linear;
-    transition-delay: 1s;
+    transition-delay: 3s;
   }
 
 @keyframes projects {
